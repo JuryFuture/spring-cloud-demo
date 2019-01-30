@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cloud-demo'
+include('config-server')
+include('gateway')
+include('user-api')
+include('user-server')
