@@ -1,0 +1,12 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: user-api
+  cloud:
+    consul:
+      discovery:
+        health-check-interval: 10s
+        port: 8500
+        hostname: localhost
