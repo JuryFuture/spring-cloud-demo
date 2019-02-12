@@ -8,5 +8,5 @@ spring:
       server:
         git:
           uri: https://github.com/JuryFuture/config.git
-          username: JuryFuture
-          password: JuryFuture0
+          username:
+          password:
