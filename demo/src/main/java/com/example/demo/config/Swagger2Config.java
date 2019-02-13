@@ -1,10 +1,10 @@
 /**
  * Project Name: spring-cloud-demo
  * File Name: Swagger2Config.java
- * Package Name: com.example.userapi.config
+ * Package Name: com.example.demo.config
  * Date: 2019/2/4 0:12
  */
-package com.example.userapi.config;
+package com.example.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,7 +28,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.userapi.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

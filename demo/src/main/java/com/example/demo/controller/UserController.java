@@ -1,10 +1,10 @@
 /**
  * Project Name: spring-cloud-demo
  * File Name: UserController.java
- * Package Name: com.example.userapi.controller
+ * Package Name: com.example.demo.controller
  * Date: 2019/2/8 23:30
  */
-package com.example.userapi.controller;
+package com.example.demo.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

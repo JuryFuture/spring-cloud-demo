@@ -4,7 +4,7 @@
  * Package Name: com.example.userserver.dto
  * Date: 2019/2/11 11:16
  */
-package com.example.userserver.dto;
+package com.example.userapi.dto;
 
 import lombok.Getter;
 import lombok.Setter;

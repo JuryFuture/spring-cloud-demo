@@ -6,8 +6,9 @@
  */
 package com.example.userserver.controller;
 
-import com.example.userserver.dto.ResponseDTO;
-import com.example.userserver.dto.UserDTO;
+
+import com.example.userapi.dto.ResponseDTO;
+import com.example.userapi.dto.UserDTO;
 import com.example.userserver.entity.User;
 import com.example.userserver.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
